@@ -18,13 +18,16 @@ In order to better understand the impact of the 2008 recession and the COVID rec
 
 Findings about our studies are as follows.
 
- - Expected Returns
+![Dashboard](https://github.com/crcrawfo1/Project1/blob/main/Photos/dashboardgif.gif)
 
-    Prior 2008: Tech is most volatile, offered highest expected return but also had the most downside risk. Entertainment also had lots of downside in this period, but without as much upside. Everything else is relatively normal in terms of standard deviation and correlation to S&P 500. 
+
+ - **Expected Returns**
+
+    Prior 2008: Travel/Airlines is most volatile, offered highest expected return but also had the most downside risk. Entertainment also had lots of downside in this period, but without as much upside. Everything else is relatively normal in terms of standard deviation and correlation to S&P 500. 
 
     ![ER PRIOR 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/returns/returns_before_2008.PNG)
 
-    During 2008 Recession: Tech was once again the most volatile and had the highest upside. Every other sector moved in correlation with the S&P 500.
+    During 2008 Recession: Travel/Airlines was once again the most volatile and had the highest upside. Every other sector moved in correlation with the S&P 500.
 
     ![ER During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/returns/returns_during_covid.PNG)
    
@@ -38,22 +41,111 @@ Findings about our studies are as follows.
     
 
 
- - Annual Risk Findings
+ - **Annual Risk Findings**
  
-    Prior 2008: Tech (0.377) has the highest risk, while Fast Food (0.176) has the lowest risk of industry specific portfolios. S&P 500 (0.103) has lower risk than all portfolios.
+    Prior 2008: Transportation has the highest risk, while Entertainment has the lowest risk of industry specific portfolios. S&P 500 has lower risk than all portfolios.
 
     ![AR PRIOR 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/annual_risk/annual_risk_before_2008.PNG)
 
-    During 2008: Tech (0.558) still has highest risk however every other category gained in riskiness at a higher multiplier. S&P 500 jumped to 0.352 and Fast Food actually had less risk than the S&P at 0.325. 
+    During 2008: Transportation still has highest risk however every other category gained in riskiness at a higher multiplier. Fast Food actually had less risk than the S&P. 
     
     ![AR During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/annual_risk/annual_risk_during_2008.PNG)
     
-    Prior COVID: Entertainment carrier highest risk at 0.283 followed closely by Energy and Tech. S&P was the lowest risk at 0.149. 
+    Prior COVID: Transportation carrier highest risk followed closely by Energy and Tech. S&P was the lowest risk. 
 
     ![AR PRIOR COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/annual_risk/annual_risk_before_covid.PNG)
     
-    During COVID: Unsurprisingly, Energy (0.642), Transportation (0.582), and Fast Food (0.552) had the three highest risk factors as people dealt with the lockdowns by not traveling or going outside which led to little demand for these services. Surprisingly, Entertainment (0.331) had a lower annualized risk than the S&P 500 (0.342) for this time period. 
+    During COVID: Unsurprisingly, Energy , Transportation ,Tech and Fast Food  had the four highest risk factors as people dealt with the lockdowns by not traveling or going outside which led to little demand for these services. Surprisingly, Entertainment had lower annual risk than the S&P 500 for this period. 
 
     ![AR During COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/annual_risk/annual_risk_during_covid.PNG)
 
 
+
+-  **21 Day Rolling Risk Analysis**
+
+    Prior 2008: Tech and Transportation had higher risk on this metric and did not move in a completely correlated manner with the S&P 500. The rest of the industries did move with the market as a whole. 
+
+    ![RR PRIOR 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/21_day_rolling_risk/21_day_rolling_risk_pre_2008.PNG)
+
+    During 2008: During the actual crash in 2008 between 9/2008 and 1/2009, all of the industries mirrored the movements of the S&P 500.
+
+    ![RR During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/21_day_rolling_risk/21_day_rolling_risk_during_2008.PNG)
+
+    Prior COVID: Leading up to COVID, these industries were not always moving in synch with the S&P 500 except for ~Q4 of 2018 and the beginning of Q1 2019. 
+
+    ![RR PRIOR COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/21_day_rolling_risk/21_day_rolling_risk_pre_covid.PNG)
+
+    During COVID: Energy  had higher risk on this metric and  other  industries we are measuring moved in a nearly identical pattern to the S&P 500.
+
+    ![RR During COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/21_day_rolling_risk/21_day_rolling_risk_during_covid.PNG)
+
+
+- **Sharpe Ratios**
+
+    Prior 2008: Transportation (2.04) had the highest Sharpe Ratio in this data set. The lowest by a long shot was Energy (1.261). The S&P 500 was the lowest. 
+
+    ![SR PRIOR 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/sharpe_ratios/sharpe_ratios_pre_2008.PNG)
+    
+    During 2008: The S&P 500 has by far the worst Sharpe Ratio of -.532 during this period. The Energy portfolio was also slightly negative. Interestingly enough, the entertainment portfolio which had the lowest Sharpe Ratio leading up to the 2008 recession had the highest ratio during the recession of .264
+
+    ![SR During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/sharpe_ratios/sharpe_ratios_during_2008.PNG)
+    
+    Prior COVID: Tech had the highest Sharpe Ratio at 1.289 The S&P 500 sat in the middle with a .656 ratio. And the Energy portfolio was the lowest at .375. 
+
+    ![SR PRIOR COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/sharpe_ratios/sharpe_ratios_pre_covid.PNG)
+    
+    During COVID: Energy (-.623) and Transportation were the only negative Sharpe Ratios. The S&P 500 was in the middle again. Tech had the highest ratio of 1.2 Somewhat surprisingly, Entertainment was the second highest at .5. 
+
+    ![SR During COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/sharpe_ratios/sharpe_ratios_during_covid.PNG)
+
+
+
+- **Correlation**
+
+    Prior 2008: Limited correlation between the portfolios, no correlation was higher than .447. Specifically in regards to correlation to the S&P 500, Entertainment had the highest correlation at .823. 
+
+    ![Cor PRIOR 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/correlations/corr_pre_2008.PNG)
+
+    During 2008: Strong correlations are more abundant in this time period. Energy and the S&P 500 had a .975 correlation. Energy and Entertainment as well as Energy and the S&P 500 both had correlations of ~.95 as well. 
+
+    ![Cor During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/correlations/corr_during_2008.PNG)
+
+    Prior COVID: Entertainment and Tech had the highest correlation to the S&P 500 in this period. Both portfolios also had the highest correlations with the other portfolios as well. 
+
+    ![Cor PRIOR COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/correlations/corr_pre_covid.PNG)
+
+    During COVID: Not surprising, but more correlation than prior to COVID as the whole market moved in a similar direction. The S&P 500 was correlated with each portfolio at a minimum of .951 (Transportation) and at a maximum of .983 (Entertainment). 
+    
+    ![Cor During COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/correlations/corr_during_covid.PNG)
+
+
+- **Beta**
+
+    Prior 2008: Not a surprise given the previous remarks on risk, but Tech had by far the highest Beta in this timeframe. Its highest point registered at ~2.29 and had a median Beta of 1.45. The remaining 4 portfolios all had similar median Beta’s ranging between 0.95 (Fast Food) and 1.22 (Transportation). This period had the widest range of Betas out of the four timeframes we looked at.   
+
+    ![B PRIOR 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/beta_variability/variability_beta_pre_2008.PNG) 
+
+    During 2008: Betas are more scattered than prior to the 2008 recession, but still relatively in line with each other. Tech and Transportation had the highest two median Betas (1.02 and 1.26 respectively). Fast Food had the lowest median Beta at 0.784.
+
+    ![B During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/beta_variability/variability_beta_during_2008.PNG) 
+
+    Prior COVID: Betas are even more spread apart than during the 2008 recession. A consistent theme with this time frame continues with Tech and Energy having the two highest median Betas at 1.42 and 1.02, respectively. 
+
+    ![B PRIOR COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/beta_variability/variability_beta_pre_covid.PNG)
+
+    During COVID: Betas are less spread out (not surprising if the entire market tanks rather than a few sectors). Seeing as the Energy portfolio was the most volatile from a returns perspective, it isn’t surprising that Energy had the highest median Beta of 1.388.
+
+    ![B During COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/beta_variability/variability_beta_during_covid.PNG) 
+
+
+## Result
+
+- Our findings were generally in line with expectations as to how each industry performed throughout each recession. 
+- The gains and losses in 2008 were much greater than in COVID. Both recessions caused a good degree of volatility. 
+- S&P 500 generally performs in a less volatile and risky manner compared to individual market sectors
+
+## Resource
+
+https://finance.yahoo.com/
+
+https://stackoverflow.com/
