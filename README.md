@@ -29,7 +29,7 @@ Findings about our studies are as follows.
 
     During 2008 Recession: Travel/Airlines was once again the most volatile and had the highest upside. Every other sector moved in correlation with the S&P 500.
 
-    ![ER During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/returns/returns_during_covid.PNG)
+    ![ER During 2008](https://github.com/crcrawfo1/Project1/blob/main/Photos/returns/returns_during_2008.PNG)
    
     Prior COVID: Not as much apparent volatility compared to the 2008 data sets. Fast Food had the highest upside point in early 2019. Tech (along with the entire market) fluctuated up and down quite a bit at the end of 2018. 
 
@@ -37,7 +37,7 @@ Findings about our studies are as follows.
 
     During COVID: Every industry experienced wild market fluctuations in March – May of 2020. Energy and Fast Food had the highest volatility on both ends of the spectrum. Surprisingly, Tech was not volatile at all during this timeframe relative to the S&P and other industries.
 
-    ![ER During COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/returns/returns_during_2008.PNG)
+    ![ER During COVID](https://github.com/crcrawfo1/Project1/blob/main/Photos/returns/returns_during_covid.PNG)
     
 
 
