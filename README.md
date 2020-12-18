@@ -1,4 +1,4 @@
-# The impact of the 2008 recession and the COVID recession on the industries
+# The Impact of the 2008 Recession and the COVID Recession on Five Industries
 
 ## Project Proposal
 As you know, all stocks are affected by the 2008 recession and the COVID recession.We decided to took a closer look at recessions to see how different industries and portfolios of stocks performed throughout these recessions. We analyzed by choosing 5 stocks from each industry. 
